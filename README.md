@@ -29,6 +29,7 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 - [Hindsight](https://github.com/vectorize-io/hindsight) - MIT agent-memory system running four parallel retrieval strategies per query: semantic search, BM25 keyword matching, graph traversal, and temporal reasoning.
 - [LangMem](https://github.com/langchain-ai/langmem) - MIT SDK giving LangGraph agents long-term semantic, episodic, and procedural memory, plus a background memory manager.
 - [Letta](https://github.com/letta-ai/letta) - Apache-2.0 framework for stateful agents with self-editing core memory and vector-backed archival memory; successor to MemGPT.
+- [LWC](https://github.com/JanYork/llm-wiki-cli) - Apache-2.0 local-first CLI giving coding agents source-grounded project memory, plans, citations, and optional document and code graphs.
 - [Memary](https://github.com/kingjulio8238/Memary) - Long-term memory framework for autonomous agents that builds a Neo4j/FalkorDB knowledge graph and tracks entities by breadth and recency.
 - [MemEngine](https://github.com/nuster1128/MemEngine) - Library unifying many published LLM-agent memory models under a common, modular, pluggable interface (RUC and Huawei Noah's Ark).
 - [Memobase](https://github.com/memodb-io/memobase) - User-profile-based long-term memory backend for LLM applications; maintains structured, evolving user profiles and event timelines across sessions.
