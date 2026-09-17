@@ -48,6 +48,8 @@ Memory servers that connect to any Model Context Protocol client (Claude, Cursor
 - [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) - Hosted persistent memory over MCP; one key or OAuth across MCP clients.
 - [OpenMemory](https://github.com/mem0ai/mem0/tree/main/openmemory) - Local-first, private MCP memory server (part of the Mem0 project).
 
+- [Screenpipe](https://github.com/screenpipe/screenpipe) - MCP server for searching screen text and audio transcripts captured by a running Screenpipe instance, with source available under the Screenpipe Commercial License.
+
 ## Benchmarks and evaluation
 
 Common suites used to evaluate agent memory.
