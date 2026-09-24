@@ -54,6 +54,7 @@ Memory servers that connect to any Model Context Protocol client (Claude, Cursor
 - [OpenMemory](https://github.com/mem0ai/mem0/tree/main/openmemory) - Local-first, private MCP memory server (part of the Mem0 project).
 - [ReasonGraph Cloud](https://memory.primaxiom.ai) - Hosted graph memory over Streamable HTTP MCP with API-key auth; tools for remembering facts, discovering connections, tracing causes and effects and what-if queries.
 - [Screenpipe](https://github.com/screenpipe/screenpipe) - MCP server for searching screen text and audio transcripts captured by a running Screenpipe instance, with source available under the Screenpipe Commercial License.
+- [Vestige](https://github.com/samvallad33/vestige) - Local-first, AGPL-3.0 memory system for coding agents over MCP. Retroactive backfill ranks earlier records as candidate causes of a fresh failure, a composed graph records which memories were used together and surfaces never-tried combinations, retrieval decays on an FSRS-6 schedule, and receipts fail closed after compaction. Single Rust binary.
 
 ## Benchmarks and evaluation
 
