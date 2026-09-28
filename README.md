@@ -52,6 +52,7 @@ Memory servers exposed through the Model Context Protocol. Client support depend
 - [Memento](https://mementoagi.com) - Hosted MCP memory for coding agents with editable Markdown records, team-shared context, and a web dashboard.
 - [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) - Hosted persistent memory with an MIT local stdio MCP server using an API key, plus a remote HTTP MCP endpoint with OAuth for compatible clients.
 - [OpenMemory](https://github.com/mem0ai/mem0/tree/main/openmemory) - Local-first, private MCP memory server (part of the Mem0 project).
+- [pulse-path](https://github.com/Inspired-by-Atmosphere/pulse-path) - File-based memory governance layer that stores pointers, knowledge nodes, and tasks as Markdown files under a configurable root, with sync, audit, and classification tooling. MIT.
 - [ReasonGraph Cloud](https://memory.primaxiom.ai) - Hosted graph memory over Streamable HTTP MCP with API-key auth; tools for remembering facts, discovering connections, tracing causes and effects and what-if queries.
 - [Screenpipe](https://github.com/screenpipe/screenpipe) - MCP server for searching screen text and audio transcripts captured by a running Screenpipe instance, with source available under the Screenpipe Commercial License.
 
