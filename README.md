@@ -48,6 +48,7 @@ Memory servers exposed through the Model Context Protocol. Client support depend
 
 - [Basic Memory](https://github.com/basicmachines-co/basic-memory) - Local-first, AGPL-3.0 MCP server that stores agent memory as Obsidian-compatible Markdown files, building a knowledge graph agents can read and write.
 - [Firekeep](https://github.com/kapella-hub/FirekeepHQ) - BUSL-1.1 self-hosted MCP operating layer that shares durable knowledge, working state, cooperative coordination leases, and replay evidence across Claude Code, Codex, Kiro, and OpenCode.
+- [fidelis](https://github.com/hermes-labs-ai/fidelis) - Zero-LLM local-first agent memory for Claude Code over MCP: BM25 keyword plus dense vector retrieval, no cloud at runtime.
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - MIT-licensed developer-alpha knowledge store with encrypted, append-only records and MCP retrieval through scoped, expiring grants.
 - [Memento](https://mementoagi.com) - Hosted MCP memory for coding agents with editable Markdown records, team-shared context, and a web dashboard.
 - [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) - Hosted persistent memory with an MIT local stdio MCP server using an API key, plus a remote HTTP MCP endpoint with OAuth for compatible clients.
