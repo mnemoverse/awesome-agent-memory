@@ -18,6 +18,7 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 ## Managed memory APIs and services
 
 - [GoodMem](https://goodmem.ai) - Memory layer for agentic AI with owners, roles, scoped API keys and retrieval logging, multi-modal hybrid search with reranking, available as a managed cloud or self-hosted, with SDKs in Python, TypeScript, Java, .NET and Go.
+- [Marvnor](https://wendelxia.github.io/marvnor/) - Proprietary hosted API for structured agent memory, with fact verification, conflicting-value detection, record correction, and targeted deletion.
 - [Mem0](https://github.com/mem0ai/mem0) - Open-source (Apache-2.0) memory layer that extracts facts from conversations, plus a managed cloud, with many framework integrations.
 - [Mnemoverse](https://mnemoverse.com) - Persistent memory API for AI agents over MCP. Scores importance on write, strengthens associations between concepts (Hebbian), and re-ranks recall from outcome feedback. MIT client, managed engine.
 - [Supermemory](https://github.com/supermemoryai/supermemory) - Memory and context API for AI apps and agents, with fact extraction, user profiles, connectors, and hybrid vector-plus-keyword retrieval.
