@@ -41,20 +41,24 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 - [memU](https://github.com/NevaMind-AI/memU) - Apache-2.0 agent-memory framework where agents store notes as organized Markdown files, recalled via embedding-based ranked retrieval.
 - [MIRIX](https://github.com/Mirix-AI/MIRIX) - Apache-2.0 multi-agent memory system with six memory types (core, episodic, semantic, procedural, resource, knowledge vault); multimodal.
 - [ReasonGraph](https://github.com/bgokden/reasongraph) - MIT graph-memory library that extracts entities and cause-effect relations with small fine-tuned models, answers why-questions by walking causal chains with citations, supports time-travel queries and contradiction handling, with a hosted service (ReasonGraph Cloud).
+- [self-learning-agent-setup](https://github.com/ssap-pa/self-learning-agent-setup) - MIT Postgres schema and TypeScript loop that store each human approve, edit, and reject of an agent draft with pgvector embeddings and retrieve feedback from similar past tasks before the next draft.
 
 ## MCP memory servers
 
 Memory servers exposed through the Model Context Protocol. Client support depends on the server transport and authentication method.
 
 - [Basic Memory](https://github.com/basicmachines-co/basic-memory) - Local-first, AGPL-3.0 MCP server that stores agent memory as Obsidian-compatible Markdown files, building a knowledge graph agents can read and write.
+- [BrainTube](https://github.com/lildaddyo/braintube-mcp) - Hosted, read-write MCP memory server (Elastic License 2.0) over a personal library of YouTube transcripts, podcasts, articles, PDFs and notes, with OAuth or API-key auth over Streamable HTTP.
 - [fidelis](https://github.com/hermes-labs-ai/fidelis) - Apache-2.0, local-first agent memory for Claude Code over MCP: local vector recall by default with an explicit keyword+vector hybrid mode, no generative LLM in retrieval, no cloud at runtime.
 - [Firekeep](https://github.com/kapella-hub/FirekeepHQ) - BUSL-1.1 self-hosted MCP operating layer that shares durable knowledge, working state, cooperative coordination leases, and replay evidence across Claude Code, Codex, Kiro, and OpenCode.
+- [Graphmem](https://github.com/sonic182/graphmem) - Local-first, MIT-licensed MCP server giving Claude Code, Codex, OpenCode, and pi a shared SQLite memory store with local semantic search and linked entities, plus optional code navigation tools.
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - MIT-licensed developer-alpha knowledge store with encrypted, append-only records and MCP retrieval through scoped, expiring grants.
 - [Memento](https://mementoagi.com) - Hosted MCP memory for coding agents with editable Markdown records, team-shared context, and a web dashboard.
 - [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) - Hosted persistent memory with an MIT local stdio MCP server using an API key, plus a remote HTTP MCP endpoint with OAuth for compatible clients.
 - [OpenMemory](https://github.com/mem0ai/mem0/tree/main/openmemory) - Local-first, private MCP memory server (part of the Mem0 project).
 - [ReasonGraph Cloud](https://memory.primaxiom.ai) - Hosted graph memory over Streamable HTTP MCP with API-key auth; tools for remembering facts, discovering connections, tracing causes and effects and what-if queries.
 - [Screenpipe](https://github.com/screenpipe/screenpipe) - MCP server for searching screen text and audio transcripts captured by a running Screenpipe instance, with source available under the Screenpipe Commercial License.
+- [Selvedge](https://github.com/masondelan/selvedge) - MIT-licensed local stdio MCP server and CLI that stores coding decisions, reasons, and rejected approaches in SQLite for retrieval across agent sessions.
 
 ## Benchmarks and evaluation
 
