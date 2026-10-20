@@ -64,7 +64,7 @@ Memory servers exposed through the Model Context Protocol. Client support depend
 - [ReasonGraph Cloud](https://memory.primaxiom.ai) - Hosted graph memory over Streamable HTTP MCP with API-key auth; tools for remembering facts, discovering connections, tracing causes and effects and what-if queries.
 - [Screenpipe](https://github.com/screenpipe/screenpipe) - MCP server for searching screen text and audio transcripts captured by a running Screenpipe instance, with source available under the Screenpipe Commercial License.
 - [Selvedge](https://github.com/masondelan/selvedge) - MIT-licensed local stdio MCP server and CLI that stores coding decisions, reasons, and rejected approaches in SQLite for retrieval across agent sessions.
-- [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) - MIT local stdio MCP memory server that gives an agent associative recall over its own markdown notes: vector retrieval for entry points, hand-curated wikilinks as the graph, cross-encoder rerank, and a zero-token per-turn ledger, with the ledger and retrieval telemetry stored in SQLite.
+- [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) - MIT local stdio MCP memory server that gives an agent associative recall over a folder of markdown notes: vector retrieval for entry points, hand-curated wikilinks as the graph, and cross-encoder rerank, with retrieval A/B telemetry in SQLite, plus a Claude Code Stop hook that writes a per-turn ledger to SQLite without LLM calls.
 - [Synapse](https://github.com/anshulyadav1976/synapse) - MIT local stdio MCP memory server that stores imported history, linked wiki pages, and human-approved agent notes as Markdown with a disposable SQLite FTS5 and graph index.
 
 ## Benchmarks and evaluation
