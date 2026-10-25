@@ -79,6 +79,7 @@ Common suites used to evaluate agent memory.
 - [LongMemEval](https://xiaowu0162.github.io/long-mem-eval/) - 500-question benchmark testing five long-term memory abilities of chat assistants over scalable chat histories (ICLR 2025).
 - [MemoryAgentBench](https://arxiv.org/abs/2507.05257) - Benchmark that converts existing and newly constructed long-context datasets into incremental multi-turn interactions to test memory agents on accurate retrieval, test-time learning, long-range understanding, and selective forgetting (ICLR 2026).
 - [Open Agent Memory Benchmark](https://github.com/rocke2020/open-agent-memory-benchmark) - Apache-2.0 benchmark comparing self-hosted agent-memory systems through native APIs across answer accuracy, answer-visible context, indexing, and latency, with public question-level results and frozen evaluation plans.
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`), HTTP 402 payment wall, and MCP tool server for verifying Layer-1 `DOOM` and Base Mainnet `wDOOM` payments.
 
 ## Papers
 
