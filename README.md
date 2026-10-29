@@ -24,6 +24,7 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 - [Mem0](https://github.com/mem0ai/mem0) - Open-source (Apache-2.0) memory layer that extracts facts from conversations, plus a managed cloud, with many framework integrations.
 - [Membase](https://github.com/unibaseio/membase) - Hosted memory layer with a remote MCP endpoint (OAuth) and MIT-licensed Python and TypeScript SDKs, letting Claude, ChatGPT, Cursor and custom agents share one persistent memory.
 - [Mnemoverse](https://mnemoverse.com) - Managed memory engine for AI agents over MCP, with shared rooms (beta), an MIT local stdio MCP server using an API key, and a remote MCP endpoint with OAuth; rating a recalled memory as helpful or misleading re-ranks what comes back next.
+- [past.dev](https://past.dev) - Hosted memory API over REST and a remote MCP endpoint (OAuth) where each data point carries its own timestamp and source, recall returns the value current at a given time and what it replaced, and an audience decides which readers may see it.
 - [Supermemory](https://github.com/supermemoryai/supermemory) - Memory and context API for AI apps and agents, with fact extraction, user profiles, connectors, and hybrid vector-plus-keyword retrieval.
 - [Zep](https://www.getzep.com/) - Managed memory service built on a temporal knowledge graph (open-source Graphiti engine), offered as cloud, BYOK, and BYOC deployments.
 
