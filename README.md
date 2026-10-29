@@ -86,6 +86,7 @@ Memory servers exposed through the Model Context Protocol. Client support depend
 - [Selvedge](https://github.com/masondelan/selvedge) - MIT-licensed local stdio MCP server and CLI that stores coding decisions, reasons, and rejected approaches in SQLite for retrieval across agent sessions.
 - [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) - MIT local stdio MCP memory server that gives an agent associative recall over a folder of markdown notes: vector retrieval for entry points, hand-curated wikilinks as the graph, and cross-encoder rerank, with retrieval A/B telemetry in SQLite, plus a Claude Code Stop hook that writes a per-turn ledger to SQLite without LLM calls.
 - [Synapse](https://github.com/anshulyadav1976/synapse) - MIT local stdio MCP memory server that stores imported history, linked wiki pages, and human-approved agent notes as Markdown with a disposable SQLite FTS5 and graph index.
+- [TokenRip](https://tokenrip.com) - Hosted, proprietary remote MCP server at `https://api.tokenrip.com/mcp` where Claude, ChatGPT, Codex, Cursor and other MCP clients share one workspace of versioned files, tables, tasks and pinned decisions, with each change recording which agent made it and why; sign-in by email code, MIT-licensed CLI.
 
 ## Benchmarks and evaluation
 
