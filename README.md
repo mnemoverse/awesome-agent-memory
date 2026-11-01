@@ -61,7 +61,7 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 Reusable agent-memory workflows and templates for knowledge practices agents can adopt directly, not general prompt packs.
 
 - [Strata Sample](https://github.com/Zerokool1986/Strata-sample) - Custom license; commercial use and free redistribution with credit allowed, no resale; knowledge system for coding agents that stores typed Markdown entries with status and provenance in a Git repo, keeps superseded entries readable instead of deleting them, and includes templates, a worked example, and a five-question self-test.
-- [vidbyte-memory](https://github.com/cerredz/vidbyte-memory) - MIT; GitHub template and installer for coding agents that logs each owner correction verbatim and turns what it admits into facts, rules or hints in Markdown files indexed from AGENTS.md, plus a pytest test or verifier that fails if the mistake returns, with a git commit per request and a Stop hook that keeps the turn from ending while tests fail or memory is uncommitted.
+- [vidbyte-memory](https://github.com/cerredz/vidbyte-memory) - MIT; GitHub template and installer for coding agents, with a verbatim feedback log, admitted facts, rules and hints in AGENTS.md-indexed Markdown memory, pytest and agent-verifier workflows, Git footprint commits, and a Stop hook with up to five blocking retries for failed checks or uncommitted changes.
 
 ## MCP memory servers
 
