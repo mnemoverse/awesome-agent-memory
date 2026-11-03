@@ -54,12 +54,15 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 - [ReasonGraph](https://github.com/bgokden/reasongraph) - MIT graph-memory library that extracts entities and cause-effect relations with small fine-tuned models, answers why-questions by walking causal chains with citations, supports time-travel queries and contradiction handling, with a hosted service (ReasonGraph Cloud).
 - [self-learning-agent-setup](https://github.com/ssap-pa/self-learning-agent-setup) - MIT Postgres schema and TypeScript loop that store each human approve, edit, and reject of an agent draft with pgvector embeddings and retrieve feedback from similar past tasks before the next draft.
 - [Sno Station](https://github.com/sno-ai/sno-station) - Apache-2.0 shared memory engine for coding agents, with encrypted local SQLite storage, project/global recall and corrections that retain superseded records; memory processing can run locally or use configured model and optional Sno cloud services.
+- [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) - MIT text-memory plugin for DeepSeek Harness with source-linked review, global/project scopes, lexical retrieval and revision history; public beta.
+- [ZenBrain](https://github.com/zensation-ai/zenbrain) - Apache-2.0 TypeScript agent-memory library with FSRS-style spaced repetition, Hebbian edge-strengthening functions and an episode-to-semantic consolidation pass; algorithms and core have no third-party runtime dependencies, with SQLite and PostgreSQL adapters, a stdio MCP server and Vercel AI SDK middleware.
 
 ## Agent memory workflows and templates
 
 Reusable agent-memory workflows and templates for knowledge practices agents can adopt directly, not general prompt packs.
 
 - [Strata Sample](https://github.com/Zerokool1986/Strata-sample) - Custom license; commercial use and free redistribution with credit allowed, no resale; knowledge system for coding agents that stores typed Markdown entries with status and provenance in a Git repo, keeps superseded entries readable instead of deleting them, and includes templates, a worked example, and a five-question self-test.
+- [vidbyte-memory](https://github.com/cerredz/vidbyte-memory) - MIT; GitHub template and installer for coding agents, with a verbatim feedback log, admitted facts, rules and hints in AGENTS.md-indexed Markdown memory, pytest and agent-verifier workflows, Git footprint commits, and a Stop hook with up to five blocking retries for failed checks or uncommitted changes.
 
 ## MCP memory servers
 
@@ -76,6 +79,7 @@ Memory servers exposed through the Model Context Protocol. Client support depend
 - [Honcho MCP](https://github.com/plastic-labs/honcho/tree/main/mcp) - AGPL-3.0 MCP server for Honcho, hosted at mcp.honcho.dev and authenticated with a Honcho API key as a bearer token; the same tools also run locally over stdio or Streamable HTTP, and memories are stored in the user's Honcho workspace.
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - MIT-licensed developer-alpha knowledge store with encrypted, append-only records and MCP retrieval through scoped, expiring grants.
 - [Knowledge Graph Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Reference MCP server from the Model Context Protocol project, published on npm as @modelcontextprotocol/server-memory, that stores entities, relations, and observations as a local knowledge graph in a JSONL file.
+- [Lore](https://github.com/FFatTiger/lore) - MIT-licensed self-hostable MCP memory server for coding agents over Streamable HTTP: a URI-addressed memory graph with guarded write tools and scheduled maintenance (Dream), and plugins for Claude Code, Codex, OpenCode and other runtimes that add a fixed boot baseline per session and per-prompt recall, plus a managed service.
 - [Mem0 MCP](https://docs.mem0.ai/platform/mem0-mcp) - Hosted MCP server for the Mem0 Platform, reached over HTTPS with browser sign-in or an API key as a bearer token; memories are stored in the user's Mem0 account.
 - [Memento](https://mementoagi.com) - Hosted MCP memory for coding agents with editable Markdown records, team-shared context, and a web dashboard.
 - [MemoryRouter](https://memoryrouter.ai) - Hosted memory service over a remote Streamable HTTP MCP endpoint with OAuth, where one user-selected vault is shared across connected clients such as ChatGPT, Claude, Codex, and Cursor.
@@ -86,7 +90,9 @@ Memory servers exposed through the Model Context Protocol. Client support depend
 - [Selvedge](https://github.com/masondelan/selvedge) - MIT-licensed local stdio MCP server and CLI that stores coding decisions, reasons, and rejected approaches in SQLite for retrieval across agent sessions.
 - [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) - MIT local stdio MCP memory server that gives an agent associative recall over a folder of markdown notes: vector retrieval for entry points, hand-curated wikilinks as the graph, and cross-encoder rerank, with retrieval A/B telemetry in SQLite, plus a Claude Code Stop hook that writes a per-turn ledger to SQLite without LLM calls.
 - [Synapse](https://github.com/anshulyadav1976/synapse) - MIT local stdio MCP memory server that stores imported history, linked wiki pages, and human-approved agent notes as Markdown with a disposable SQLite FTS5 and graph index.
+- [Throughline](https://getthroughline.ai/) - Hosted MCP service for persistent AI identity and memory across supported clients, with MIT-licensed Claude Code and Codex plugins and verifiable history exports.
 - [TokenRip](https://tokenrip.com) - Proprietary hosted MCP server at `https://api.tokenrip.com/mcp` for a shared workspace of versioned files, tables, tasks and pinned decisions, with agent-attributed change history and required reasons for workspace-content writes; email-code sign-in and an MIT-licensed CLI.
+- [VibeDesk](https://github.com/fxd-gif/vibedesk) - MIT-licensed Windows desktop app for Claude Code whose bundled local stdio MCP server keeps Obsidian-compatible Markdown notes with [[links]]: project notes live in `.vibedesk/brain` inside the repository, while personal notes live in the app's user-data directory and apply across projects; with tools to search, read, write, relate and forget notes; the server only runs while the app is running.
 
 ## Benchmarks and evaluation
 
