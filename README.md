@@ -30,7 +30,7 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 
 ## Open-source frameworks and engines
 
-- [Atris](https://github.com/atrislabs/atris) - MIT project memory for coding agents, kept as Markdown files in the repo: a file:line map, a linked wiki, daily logs, and tasks with proof, shared by Claude Code, Codex and Cursor and reviewed in git; optional hosted workspaces at atris.ai.
+- [Atris](https://github.com/atrislabs/atris) - MIT project-memory CLI for coding agents with a repository-local Markdown map, linked wiki and daily logs, plus local SQLite task state with a generated TODO.md view; optional hosted workspaces at atris.ai.
 - [birkin-mnemosyne](https://github.com/ashmoonori-afk/birkin-mnemosyne) - MIT local Markdown memory for agents with multilingual BM25 recall that handles Hangul and CJK, usage-based decay, and an optional MCP server; the core has no runtime dependencies.
 - [chamnan](https://github.com/ArcticFox2029/chamnan) - MIT repository-local memory for coding agents that stores an architecture index, an impact map, session records, and decisions as markdown committed beside the code, retrieved by keyword and injected at session start. Python standard library only, no network at runtime.
 - [Cognee](https://github.com/topoteretes/cognee) - Apache-2.0 memory framework that turns documents, code, and conversations into a self-hosted knowledge graph, where a remember operation stores content and a recall operation retrieves graph, vector, or code context, with a managed option (Cognee Cloud).
@@ -98,6 +98,7 @@ Memory servers exposed through the Model Context Protocol. Client support depend
 - [Throughline](https://getthroughline.ai/) - Hosted MCP service for persistent AI identity and memory across supported clients, with MIT-licensed Claude Code and Codex plugins and verifiable history exports.
 - [TokenRip](https://tokenrip.com) - Proprietary hosted MCP server at `https://api.tokenrip.com/mcp` for a shared workspace of versioned files, tables, tasks and pinned decisions, with agent-attributed change history and required reasons for workspace-content writes; email-code sign-in and an MIT-licensed CLI.
 - [VibeDesk](https://github.com/fxd-gif/vibedesk) - MIT-licensed Windows desktop app for Claude Code whose bundled local stdio MCP server keeps Obsidian-compatible Markdown notes with [[links]]: project notes live in `.vibedesk/brain` inside the repository, while personal notes live in the app's user-data directory and apply across projects; with tools to search, read, write, relate and forget notes; the server only runs while the app is running.
+- [Zekra](https://github.com/fadymondy/zekra) - AGPL-3.0, self-hostable MCP memory server shared across agents (Claude Code, Cursor, Codex), with hybrid vector and keyword recall, a knowledge graph, data-source sync and a hosted version.
 
 ## Benchmarks and evaluation
 
