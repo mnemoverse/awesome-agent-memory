@@ -18,6 +18,7 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 
 ## Managed memory APIs and services
 
+- [Belcore](https://belcore.xyz) - Hosted memory and context API for LLM applications that retains conversation context across calls to reduce repeated input tokens, accessed with an API key.
 - [GoodMem](https://goodmem.ai) - Memory layer for agentic AI with owners, roles, scoped API keys and retrieval logging, multi-modal hybrid search with reranking, available as a managed cloud or self-hosted, with SDKs in Python, TypeScript, Java, .NET and Go.
 - [Honcho](https://github.com/plastic-labs/honcho) - Open-source (AGPL-3.0) memory server that stores messages between peers (users and agents) and reasons over them in the background to build a representation of each peer, plus a managed cloud, with SDKs in Python and TypeScript.
 - [HydraDB](https://hydradb.com/) - Graph database for AI agents that stores agent memory and company knowledge, with hybrid search across both in a single call.
