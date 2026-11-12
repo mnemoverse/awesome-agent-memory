@@ -125,6 +125,7 @@ Common suites used to evaluate agent memory.
 - [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) - Virtual context management (the origin of Letta).
 - [MemoryBank: Enhancing LLMs with Long-Term Memory](https://arxiv.org/abs/2305.10250) - Long-term memory via an Ebbinghaus-inspired forgetting curve and event summarization (2023).
 - [Semantic Level of Detail for Knowledge Graphs: Discovering Abstraction Boundaries via Spectral Heat Diffusion](https://arxiv.org/abs/2603.08965) - Introduces SLoD, a continuous zoom operator built from heat-kernel diffusion on a graph Laplacian induced by a Poincaré-ball (hyperbolic) embedding (Mnemoverse).
+- [Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction](https://arxiv.org/abs/2611.10439) - Introduces MixUA, which distills trajectories from many users and agents into lessons scoped to a user-agent pair, user, agent, or global level based on who benefits and what may be disclosed, evaluated on the CrossLearnBench benchmark (2026).
 - [Zep: A Temporal Knowledge Graph Architecture for Agent Memory](https://arxiv.org/abs/2501.13956) - Describes the Graphiti temporal knowledge-graph engine for agent memory, with retrieval-benchmark evaluation (2025).
 
 ## Contributing
